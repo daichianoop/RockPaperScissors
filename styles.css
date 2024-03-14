@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    color: lightcoral;
+  }
+  img {
+    width: 100px;
+    object-fit: cover;
+    transition: 0.4s;
+  }
+  img:hover {
+    width: 105px;
+  }
+  button {
+    padding: 0;
+    background-color: black;
+    border: none;
+    margin: 30px;
+    border-color: rgb(24, 23, 23);
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 50px;
+    color: lightsteelblue;
+  }
+  h3:hover {
+    color: darkslateblue;
+  }
+  .reset{
+    background-color: lightgrey;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+  }
+  .reset:hover{
+    color: lightgrey;
+    background-color: rgba(23, 23, 23, 0.952);
+    cursor: wait;
+  }

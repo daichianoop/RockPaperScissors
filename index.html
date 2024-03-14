@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+<script src="script.js"></script>
+<link rel="stylesheet" href="styles.css">
+  </head>
+  <body style="background-color: black; color: white">
+    <h1>Rock Paper Scissors</h1>
+    <h2>To play choose between Rock , Paper or Scissors</h2>
+    <p>
+      The rules of Rock Paper Scissors are very simple. Players count to three,
+      then make one of three gestures: rock, paper, or scissors. The outcome is
+      decided based on the following hierarchy:
+    </p>
+    <p style="color: darkorange">Rock beats scissors by crushing them.</p>
+    <p style="color: lightseagreen">
+      Scissors beat paper by cutting the paper in two.
+    </p>
+    <p style="color: lightsalmon">Paper beats rock by covering the rock.</p>
+
+    <div style="display: flex; justify-content: center">
+      <button onclick="playGame('Rock'),counter()">
+        <img src="ImgRPS/rock.png" alt="" />
+      </button>
+
+      <button onclick="playGame('Paper'),counter()">
+        <img src="ImgRPS/paper.png" alt="" />
+      </button>
+
+      <button onclick="playGame('Scissors'),counter()">
+        <img src="ImgRPS/Sc.png" alt="" />
+      </button>
+    </div>
+    <div style="display: flex; justify-content: center;">
+      <button class="reset" onclick="
+      resetScore(),counter()
+
+        ">Reset Score</button>
+    </div>
+    <div>
+      <p id="Scoree" style="color: white; text-align: center;">       
+       |   Wins: 0  |
+        Losses: 0  |
+        Ties: 0  |</p>
+    </div>
+    <h3>The result will be displayed in the alert window</h3>
+  </body>
+</html>
